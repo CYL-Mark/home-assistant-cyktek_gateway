@@ -1,0 +1,39 @@
+{
+  "manufacturer":"Altrason",
+  "type": "dehumidifier",
+  "supportedModels":[
+    "STANDARD",
+    "INDUSTRIAL",
+    "SPECIALIZED"
+  ],
+  "supportedController":"RS-485",
+  "humidity_range":{
+    "STANDARD":{
+      "max":        70,
+      "min":        40,
+      "precision":  1
+    },
+    "INDUSTRIAL":{
+      "max":        70,
+      "min":        10,
+      "precision":  1
+    }
+  },
+  "temperature_unit": "C",
+  "power_status":{
+    "OFF":      0,
+    "ON":       1,
+    "STANDBY":  2
+  },
+  "operation_modes":{
+    "OFF":        0,
+    "AUTO":       1,
+    "MANUAL":     2,
+    "AIR PURIFY": 3
+  },
+  "fan_modes":{
+    "SILENT":     0,
+    "NORMAL":     1,
+    "TURBO":      2
+  }
+}

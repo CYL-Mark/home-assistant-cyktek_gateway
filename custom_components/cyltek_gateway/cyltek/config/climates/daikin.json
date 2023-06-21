@@ -1,0 +1,65 @@
+{
+    "manufacturer":"DAIKIN",
+    "type": "AC",
+    "slave_address": 1,
+    "groups": {
+      "0": [0,1,2,3,4,5,6,7]
+    },
+    "supportedModels":[
+      "STANDARD",
+      "INDUSTRIAL",
+      "SPECIALIZED"
+    ],
+    "supportedController":"RS-485",
+    "temperature_range":{
+      "STANDARD":{
+        "min":        16,
+        "max":        32,
+        "precision":  1
+      },
+      "heat":{
+        "min":        16,
+        "max":        32,
+        "precision":  1
+      }
+    },
+    "temperature_unit": "C",
+    "power_status":{
+      "OFF":      0,
+      "ON":       1,
+      "STANDBY":  2
+    },
+    "heat_master":{
+      "no decided": 0,
+      "slave": 1,
+      "master": 2
+    },
+    "operation_modes":{
+      "fan_only":   0,
+      "heat":       1,
+      "cool":       2,
+      "auto":       3,
+      "setpoint":   6,
+      "dry":        7
+    },
+    "fan_modes":{
+      "low":    1,
+      "mid":    3,
+      "high":   5
+    },
+    "swing_modes":{
+      "horizontal": 0,
+      "p1":         1,
+      "p2":         2,
+      "p3":         3,
+      "vertical":   4,
+      "stop":       6,
+      "swing":      7
+    },
+    "advanced_modes":{
+        "away":    0,
+        "eco":     1,
+        "boost":   2,
+        "sleep":   3
+    }
+  }

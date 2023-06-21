@@ -1,0 +1,111 @@
+{
+  "config": {
+    "abort": {
+      "no_devices_found": "找不到任何CYLTek設備。",
+      "network_error": "網路錯誤 !"
+    },
+    "error": {
+      "already_built_entry": "({title}, {mac}) 此CYLTek設備已經被建立。",
+      "already_configured_entity": "({name}, {uid}) 此裝置已經被加入，",
+      "invalid_MAC": "提供的 MAC 地址無效。",
+      "no_devices_found": "找不到任何CYLTek設備。",
+      "all_devices_added": "所有CYLTek設備都已添加。",
+      "cannot_connect": "此CYLTek設備無法連線 !"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "internet": "網路介面",
+          "rescan": "重新尋找"
+        },
+        "description": "請輸入網路介面。",
+        "title": "尋找CYLTek設備們"
+      },
+      "pick": {
+        "data": {
+          "device": "CYLTek設備"
+        },
+        "description": "你只能挑一個CYLTek設備。",
+        "title": "選則CYLTek設備"
+      },
+      "select": {
+        "data": {
+          "action": "動作："
+        },
+        "description": "請選擇一個動作。",
+        "title": "選擇動作"
+      },
+      "device": {
+        "data": {
+          "default channel": "No. 預設通道",
+          "open channel": "No. 打開通道",
+          "close channel": "No. 關閉通道",
+          "stop channel": "No. 停止通道",
+          "on-off channel": "No. 開關通道",
+          "level channel": "No. 等級通道",
+          "color-temp channel": "No. 色溫通道",
+          "color channel": "No. 顏色通道",
+          "config json": "JSON 設定檔名",
+          "AC id": "AC id",
+          "humi id": "humi id 碼",
+          "add another": "繼續加入其他裝置？",
+          "name": "裝置名稱",
+          "type": "裝置類型",
+          "model": "標準或其他？"
+        },
+        "description": "新增一個 {device}",
+        "title": "新增裝置"
+      }
+    }
+  },
+  "options": {
+    "abort": {
+      "setup_complete": "設定完成！"
+    },
+    "error": {
+      "already_configured_entity": "({name}, {uid}) 此裝置已經被加入。"
+    },
+    "step": {
+      "init": {
+        "menu_options": {
+          "select": "新增裝置",
+          "remove": "移除裝置"
+        },
+        "title": "CYLTek設備管理",
+        "description": "新增或移除裝置。"
+      },
+      "select": {
+        "data": {
+          "action": "動作："
+        },
+        "description": "請選擇一個動作。",
+        "title": "選擇動作"
+      },
+      "device": {
+        "data": {
+          "default channel": "No.預設通道",
+          "open channel": "No.打開通道",
+          "close channel": "No.關閉通道",
+          "stop channel": "No.停止通道",
+          "on-off channel": "No.開關通道",
+          "level channel": "No.等級通道",
+          "color-temp channel": "No.色溫通道",
+          "color channel": "No.顏色通道",
+          "config json": "JSON 設定檔名",
+          "AC id": "AC id",
+          "humi id": "humi id 碼",
+          "add another": "繼續加入其他裝置？",
+          "name": "裝置名稱",
+          "type": "裝置類型",
+          "model": "標準或其他？"
+        },
+        "description": "新增一個 {device}",
+        "title": "新增裝置"
+      },
+      "remove": {
+        "description": "取消勾選想移除的裝置。",
+        "title": "移除裝置"
+      }
+    }
+  }
+}

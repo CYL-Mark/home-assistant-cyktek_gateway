@@ -1,0 +1,111 @@
+{
+  "config": {
+    "abort": {
+      "no_devices_found": "No devices found on the network",
+      "network_error": "Network error!"
+    },
+    "error": {
+      "already_built_entry": "({title}, {mac}) Entry is already built",
+      "already_configured_entity": "({name}, {uid}) device is already configured",
+      "invalid_MAC": "The MAC address provided is not valid.",
+      "no_devices_found": "No devices found on the network",
+      "all_devices_added": "All devices added",
+      "cannot_connect": "Cannot connect !"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "internet": "interface",
+          "rescan": "rescan"
+        },
+        "description": "net interface",
+        "title": "Search devices"
+      },
+      "pick": {
+        "data": {
+          "device": "device"
+        },
+        "description": "pick one device",
+        "title": "Device"
+      },
+      "select": {
+        "data": {
+          "action": "Action:"
+        },
+        "description": "Select an action to add a device.",
+        "title": "Select an action"
+      },
+      "device": {
+        "data": {
+          "default channel": "No. default channel",
+          "open channel": "No. open channel",
+          "close channel": "No. close channel",
+          "stop channel": "No. stop channel",
+          "on-off channel": "No. on-off channel",
+          "level channel": "No. level channel",
+          "color-temp channel": "No. color-temp channel",
+          "color channel": "No. color channel",
+          "config json": "config json name",
+          "AC id": "AC id number",
+          "humi id": "humi id code",
+          "add another": "Add another device?",
+          "name": "Name of the devive.",
+          "type": "device type",
+          "model": "standard or others"
+        },
+        "description": "Add a {device}, check the box to add another.",
+        "title": "Add Device"
+      }
+    }
+  },
+  "options": {
+    "abort": {
+      "setup_complete": "Setup complete!"
+    },
+    "error": {
+      "already_configured_entity": "({name}, {uid}) device is already configured"
+    },
+    "step": {
+      "init": {
+        "menu_options": {
+          "select": "New Device",
+          "remove": "Remove Devices"
+        },
+        "title": "Manage Devices",
+        "description": "Add a new device or remove existing devices."
+      },
+      "select": {
+        "data": {
+          "action": "Action:"
+        },
+        "description": "Select an action to add a device.",
+        "title": "Select an action"
+      },
+      "device": {
+        "data": {
+          "default channel": "No. default channel",
+          "open channel": "No. open channel",
+          "close channel": "No. close channel",
+          "stop channel": "No. stop channel",
+          "on-off channel": "No. on-off channel",
+          "level channel": "No. level channel",
+          "color-temp channel": "No. color-temp channel",
+          "color channel": "No. color channel",
+          "config json": "config json name",
+          "AC id": "AC id number",
+          "humi id": "humi id code",
+          "add another": "Add another device?",
+          "name": "Name of the devive.",
+          "type": "device type",
+          "model": "standard or others"
+        },
+        "description": "Add a {device}, check the box to add another.",
+        "title": "Add Device"
+      },
+      "remove": {
+        "description": "Deselect to remove.",
+        "title": "Remove Device"
+      }
+    }
+  }
+}

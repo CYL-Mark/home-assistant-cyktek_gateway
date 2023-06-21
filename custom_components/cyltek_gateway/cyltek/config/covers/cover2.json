@@ -1,0 +1,9 @@
+{
+    "manufacturer": "CYLTek",
+    "type": "Curtain",
+    "operation_signals": {
+        "close": [{"signal":"Hight"}, {"signal": "Sleep", "time_us": 1000}, {"signal":"Low"}],
+        "open": [{"signal":"Hight"}, {"signal": "Sleep", "time_us": 1000}, {"signal":"Low"}],
+        "stop":  [{"signal":"Hight", "channel_key": "open"}, {"signal":"Hight", "channel_key": "close"}, {"signal": "Sleep", "time_us": 1000}, {"signal":"Low", "channel_key": "open"}, {"signal":"Low", "channel_key": "close"}, {"signal": "Sleep", "time_us": 1000}]
+    }
+}
